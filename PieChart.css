@@ -1,1 +1,57 @@
 
+.detailsBox {
+  display: inline;
+  width: auto;
+  height: 60px;
+}
+
+.currentAchievement {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.placementMileStone {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+.currentAchievementColorBox {
+  height: 20px;
+  width: 20px;
+  background-color: #1976d2;
+}
+.placementMileStoneColorBox {
+  height: 20px;
+  width: 20px;
+  background-color: #ffeb3b;
+}
+
+.attendance {
+  margin-left: 5rem;
+  color: #1976d2;
+}
+
+.menu {
+  position: relative;
+  margin-top: 2;
+}
+.menu li {
+  position: absolute;
+}
+@media all and (max-width: 320px) {
+  .menu {
+    width: 230px;
+    height: 230px;
+    padding: 0;
+  }
+}
+@media all and (min-width: 700px) {
+  .menu {
+    width: 500px;
+    height: 500px;
+    padding: 0;
+  }
+}
